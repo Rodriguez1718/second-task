@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-jost: 'Jost', sans-serif;
+  --font-cormorant: 'Cormorant Garamond', serif;
+}
+
+.font-400-jost {
+  @apply font-semibold font-cormorant;
+}
